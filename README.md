@@ -1,8 +1,8 @@
 ## PDF_creator
-## This is a comment
-## To create a new PDF document: PDF_creator "name_of_the_config_file.cfg"
-## Ex: PDF_creator PDF_template.cfg
-## Linux formating '\n' only
+# This is a comment
+# To create a new PDF document: PDF_creator "name_of_the_config_file.cfg"
+# Ex: PDF_creator PDF_template.cfg
+# Linux formating '\n' only
 
 ## Config file structure ---------------------------------
 ## Output media path
