@@ -9,6 +9,6 @@ open the file main.c and change the line of the path to be changed specified ins
 
 After, recompile main.c using the following line : "gcc main.c -o conf_gen"
 
-Once the output is specified, simply run the following line : "./conf_gen"
+Once the output is specified, simply run the following line : "./create_pdf.sh"
 
 
