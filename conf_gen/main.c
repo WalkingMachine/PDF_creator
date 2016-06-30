@@ -37,7 +37,8 @@ int main (int argc, char **argv){
 		printf("Error Creating the file\n");
 	}
 
-	fprintf(fHandle,"/tmp/snpsht_tmp/\n\n"); //PATH TO STORAGE DEVICE FOR PDF
+	fprintf(fHandle,"%s",argv[1]);
+	fprintf(fHandle,"\n\n"); //PATH TO STORAGE DEVICE FOR PDF
 	fprintf(fHandle,"1 \n\n");
 	fprintf(fHandle,"1 \n\n");
 	fprintf(fHandle,"The STAGE\n\n");
